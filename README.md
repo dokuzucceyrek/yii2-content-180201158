@@ -73,5 +73,5 @@ yazılır.
 
 ## Modüle Erişmek için ;
 
-http://portal.kouosl/AirCron
+http://yii2-content-180201158/AirCron
 
