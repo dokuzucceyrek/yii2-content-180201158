@@ -1,6 +1,6 @@
 <?php
 
-namespace kouosl\AirCron\bundles;
+namespace yii2-content-180201158\AirCron\bundles;
 
 use yii\web\AssetBundle;
 
@@ -9,7 +9,7 @@ class CustomAsset extends AssetBundle {
     /**
      * @var string source assets path
      */
-    public $sourcePath = '@kouosl/AirCron/assets/';
+    public $sourcePath = '@yii2-content-180201158/AirCron/assets/';
 
     /**
      * @var array depended bundles
