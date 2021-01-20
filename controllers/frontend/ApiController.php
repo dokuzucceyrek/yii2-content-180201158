@@ -1,9 +1,9 @@
 <?php
 
-namespace kouosl\AirCron\controllers\frontend;
+namespace yii2-content-180201158\AirCron\controllers\frontend;
 use yii\data\ActiveDataProvider;
 use Yii;
-class ApiController extends \kouosl\base\controllers\frontend\BaseController
+class ApiController extends \yii2-content-180201158\base\controllers\frontend\BaseController
 {
     /**
      * Renders the index view for the module
@@ -141,7 +141,7 @@ class ApiController extends \kouosl\base\controllers\frontend\BaseController
 
     private function GetGameHighscores($id){
         $hdata = new \yii\data\ActiveDataProvider([
-            'query' => \kouosl\platformer\models\Apidatas::find()->where("gameid='". $id ."'")->orderBy([
+            'query' => \yii2-content-180201158\platformer\models\Apidatas::find()->where("gameid='". $id ."'")->orderBy([
                 'score' => SORT_DESC
             ])
         ]);
@@ -158,7 +158,7 @@ class ApiController extends \kouosl\base\controllers\frontend\BaseController
 
     private function GetUserHighscores($id){
         $hdata =new \yii\data\ActiveDataProvider([
-            'query' => \kouosl\platformer\models\Apidatas::find()->where("userid='". $id ."'")
+            'query' => \yii2-content-180201158\platformer\models\Apidatas::find()->where("userid='". $id ."'")
         ]);
 
         $hmodel = $hdata->GetModels();
@@ -173,7 +173,7 @@ class ApiController extends \kouosl\base\controllers\frontend\BaseController
 
     private function GetUserGameCount($id){
         $hdata =new \yii\data\ActiveDataProvider([
-            'query' => \kouosl\platformer\models\Highscores::find()->where("userid='". $id ."'")
+            'query' => \yii2-content-180201158\platformer\models\Highscores::find()->where("userid='". $id ."'")
         ]);
 
         $hmodel = $hdata->GetModels();
