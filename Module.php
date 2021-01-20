@@ -1,5 +1,5 @@
 <?php
-namespace kouosl\AirCron;
+namespace yii2-content-180201158\AirCron;
 
 use Yii;
 use yii\filters\auth\CompositeAuth;
@@ -12,7 +12,7 @@ use yii\web\HttpException;
 /**
  * AirCron module definition class
  */
-class Module extends \kouosl\base\Module
+class Module extends \yii2-content-180201158\base\Module
 {
     public $controllerNamespace = '';
 
