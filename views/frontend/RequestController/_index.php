@@ -1,6 +1,6 @@
 <?php
-use kouosl\theme\helpers\Html;
-use kouosl\theme\widgets\Portlet;
+use yii2-content-180201158\theme\helpers\Html;
+use yii2-content-180201158\theme\widgets\Portlet;
 use yii\data\ActiveDataProvider;
 
 
