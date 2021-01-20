@@ -1,6 +1,6 @@
 <?php
 
-namespace kouosl\AirCron\models;
+namespace yii2-content-180201158\AirCron\models;
 
 use Yii;
 
