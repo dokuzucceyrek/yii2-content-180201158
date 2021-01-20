@@ -1,6 +1,6 @@
 <?php
 
-namespace kouosl\platformer\controllers\backend;
+namespace yii2-content-180201158\platformer\controllers\backend;
 
 use Yii;
 use yii\web\Controller;
