@@ -1,11 +1,11 @@
 <?php
-namespace kouosl\AirCron\controllers\backend;
+namespace yii2-content-180201158\AirCron\controllers\backend;
 
 
 /**
  * Default controller for the `AirCron` module
  */
-class DefaultController extends \kouosl\base\controllers\backend\BaseController
+class DefaultController extends \yii2-content-180201158\base\controllers\backend\BaseController
 {
     /**
      * Renders the index view for the module
