@@ -27,27 +27,26 @@ Modülü KouOsl Portal sistemine kurabilmek için composer.json dosyasına aşa�
 
  "require": {
         ..........
-        "kouosl/portal-AirCron": "dev-master"
+        "yii2-content-180201158/portal-AirCron": "dev-master"
     }, 
  ```
     
     
-Ardından Frontend ve Backend için portal klasöründe  portal\frontend\config ve portal\backend\config klasöründeki main.php dosyası aşağıdaki gösterildiği üzere düzenlenir
+Ardından Frontend ve Backend için portal klasöründe  advanced\frontend\config ve advanced\backend\config klasöründeki main.php dosyası aşağıdaki gösterildiği üzere düzenlenir
 
 
 ```
 'modules' => [
        ...
      'AirCron' => [
-            'class' => 'kouosl\AirCron\Module',
+            'class' => 'yii2-content-180201158\AirCron\',
         ],
 
    ],
 
  ```
 
-portal\vendor\kouosl\ adresinde portal-AirCron adlı bir klasör açılıp git clone ile bu dizin de çekilebilir.
-Modül dosya olarak sisteme implemente edilmiştir.
+advanced\vendor\yii2-content-180201158(önce bu dosyayı oluşturun) adresinde portal-AirCron adlı bir klasör açılıp git clone ile bu dizine çekin
 Portal dizininde composer update işlemi yapılarak modül yüklenir.
 İmplementasyonun tamamlaması ve modüle geçiş için vagrant başlatılır;
 
@@ -68,7 +67,7 @@ yazılır.
 Ardından veritabanına modül ile alakalı tabloların yüklenebilmesi için migrate işlemi yapılmalıdır.
 
 ```
-php yii migrate/up --migrationPath=@vendor/kouosl/portal-AirCron/migrations  
+php yii migrate/up --migrationPath=@vendor/yii2-content-180201158/portal-AirCron/migrations  
 ```
 yazılır.
 
