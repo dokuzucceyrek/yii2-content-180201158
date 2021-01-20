@@ -310,7 +310,7 @@ function print_errorMessage()
     Container = document.getElementsByClassName("grid-container")[0];
     Container.innerHTML += `
     <div class="alert alert-danger" style="margin-top: 2%;" "role="alert">
-    Veri Tabanı İşlemi Başarısız. <a href="mailto:umit@aksoylu.space" class="alert-link">Lütfen sistem yöneticisi ile iletişim kurun</a> veya <a href="./AirCron" class="alert-link">tekrar deneyin.</a>
+    Veri Tabanı İşlemi Başarısız. <a href="mailto:180201158@kocaeli.edu.tr" class="alert-link">Lütfen sistem yöneticisi ile iletişim kurun</a> veya <a href="./AirCron" class="alert-link">tekrar deneyin.</a>
     </div>`;
 }
 
