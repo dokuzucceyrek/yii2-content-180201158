@@ -3,7 +3,7 @@
 #$this->title = 'Modül çalışıyor.';
 
 use yii\data\ActiveDataProvider;
-use kouosl\AirCron\bundles\CustomAsset;
+use yii2-content-180201158\AirCron\bundles\CustomAsset;
 
 
 CustomAsset::register($this);
